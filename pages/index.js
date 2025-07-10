@@ -1,9 +1,9 @@
-const express= require('express');
-const app= express();
+import React from "react";
 
-app.get("/", function(req,res){
-
-  res.send("welcome ")
-} )
-
-app.listen(3000)
+export default function Home() {
+  return (
+    <div>
+      <h1>Welcome to Home Page</h1>
+    </div>
+  );
+}
